@@ -132,7 +132,7 @@ daty_urodzenia([21,34,25,64,53,74,52,35])
 
     else:
 
-        print("Zdanie \"",zdanie,"\" nie jest palindroem.")
+        print("Zdanie \"",zdanie,"\" nie jest palindromem.")
 
         
 czypalindrom('Jestem super')
