@@ -32,16 +32,16 @@ listaikrotka("2,5,2,6,7,2,56,6")
 
 
 #Zadanie 4
-def zrobzdanie(wyraz1, wyraz2, wyraz3, wyraz4):
+def wyrazy(wyraz1, wyraz2, wyraz3, wyraz4):
     zdanie = wyraz1.capitalize() + ' ' + wyraz2 + ' ' + wyraz3 + ' ' + wyraz4 + '.'
     print(zdanie)
-zrobzdanie("ala", "ma", "czarnego", "kota")
+wyrazy("ala", "ma", "czarnego", "kota")
 
 
 
 
 #Zadanie 5
-def testwieku(x):
+def wiek(x):
     if x in range(0,2):
         print(x, "to noworodek")
     elif x in range(2, 11):
@@ -50,7 +50,7 @@ def testwieku(x):
         print(x, "to nastolatek")
     else:
         print(x, "to dorosły")
-testwieku(11)
+wiek(11)
 
 
 
@@ -59,7 +59,7 @@ testwieku(11)
 def srednia(x):
     srednia = sum(x)/len(x)
     return srednia
-srednia([2,5,3,4,2,5,1,3,4])
+srednia([1,4,2,3,2,5,4,6,3,4])
 
 
 
@@ -67,14 +67,14 @@ srednia([2,5,3,4,2,5,1,3,4])
 #Zadanie 7
 def ocena(a):
     if a > 91:
-        print("otrzymałeś ocenę bardzo dobrą")
+        print("Twoja ocena to bardzo dobry")
     if 90 > a > 76:
-        print("otrzymałeś ocenę dobrą")
+        print("Twoja ocena to dobry")
     if 75 > a > 51:
-        print("otrzymałeś ocenę dopuszczającą")
+        print("Twoja ocena to dostateczny")
     else:
-        print("przykro mi, zapraszam we wrześniu")
- ocena(83)
+        print("Niestety, nie zdałeś")
+ ocena(71)
  
  
  
@@ -98,7 +98,7 @@ daty_urodzenia([21,34,25,64,53,74,52,35])
 
  
  #Zadanie 9
- def czypalindrom(zdanie):
+ def palindrom(zdanie):
 
     zdaniezmałych=zdanie.lower()
 
@@ -135,7 +135,7 @@ daty_urodzenia([21,34,25,64,53,74,52,35])
         print("Zdanie \"",zdanie,"\" nie jest palindromem.")
 
         
-czypalindrom('Jestem super')
+palindrom('Jestem super')
 
 
 
